@@ -3,5 +3,7 @@
 var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"Basic plugin for manipulating important parameters.","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"MadeWithMv","status":true,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}}
+{"name":"MadeWithMv","status":true,"description":"Show a Splash Screen \"Made with MV\" and/or a Custom Splash Screen before going to main screen.","parameters":{"Show Made With MV":"true","Made with MV Image":"MadeWithMv","Show Custom Splash":"false","Custom Image":"","Fade Out Time":"120","Fade In Time":"120","Wait Time":"160"}},
+{"name":"OrangeHud","status":false,"description":"<OrangeHud> 2.1 - Creates a custom HUD based on the params","parameters":{"DefaultFontFace":"Verdana","DefaultFontSize":"18","DefaultFontColor":"#FFFFFF","DefaultFontItalic":"false","HudWidth":"0","HudHeight":"0","HudX":"0","HudY":"0","HudOpacity":"0","SwitchId":"0","WindowMargin":"4","WindowPadding":"18","ShowOnMap":"true","ShowOnBattle":"false","ShowOnMenu":"false","ShowOnTitle":"false","ShowUnderTintLayer":"false","AutoRefresh":"true"}},
+{"name":"SRD_HUDMaker","status":false,"description":"Allows developers to create their own map-based HUD through an in-game GUI window!","parameters":{"Active Updating":"false","Show During Events":"transparent","Map Global Condition":"","Battle Global Condition":"","Disable Delete Key":"true"}}
 ];
